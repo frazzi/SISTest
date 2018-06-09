@@ -2,6 +2,8 @@
 
 Simple rest controller test
 
+Its a springboot app - it can be run from command like this  ->  java -jar target/footballTeams-0.0.1-SNAPSHOT.jar
+
 Endpoints serviced 
  1) http://localhost:8080/teams
  Returns am array of teams objects in Json format
