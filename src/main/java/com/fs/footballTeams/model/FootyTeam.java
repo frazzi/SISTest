@@ -27,8 +27,47 @@ public class FootyTeam {
         return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getOwner() {
+        return Owner;
+    }
+
+    public void setOwner(String owner) {
+        Owner = owner;
+    }
+
     public Integer getStadiumCapacity() {
         return stadiumCapacity;
     }
 
+    public void setStadiumCapacity(Integer stadiumCapacity) {
+        this.stadiumCapacity = stadiumCapacity;
+    }
+
+    public String getCompetition() {
+        return Competition;
+    }
+
+    public void setCompetition(String competition) {
+        Competition = competition;
+    }
+
+    public Integer getNoOfPlayers() {
+        return noOfPlayers;
+    }
+
+    public void setNoOfPlayers(Integer noOfPlayers) {
+        this.noOfPlayers = noOfPlayers;
+    }
+
+    public Date getDateOfCreation() {
+        return dateOfCreation;
+    }
+
+    public void setDateOfCreation(Date dateOfCreation) {
+        this.dateOfCreation = dateOfCreation;
+    }
 }
